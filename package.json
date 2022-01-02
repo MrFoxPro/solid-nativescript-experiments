@@ -4,12 +4,20 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@nativescript/core": "~8.1.1",
-    "@nativescript/theme": "~3.0.1"
+    "@nativescript/core": "~8.1.5",
+    "@nativescript/theme": "~3.0.2",
+    "solid-js": "^1.2.6"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@nativescript/android": "8.1.1",
     "@nativescript/types": "~8.1.1",
-    "@nativescript/webpack": "~5.0.0",
-    "typescript": "~4.3.5"
+    "@nativescript/webpack": "~5.0.4",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.3",
+    "babel-preset-solid": "^1.2.6",
+    "core-js": "^3.20.2",
+    "typescript": "~4.5.4"
   }
 }

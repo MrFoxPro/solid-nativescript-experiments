@@ -1,21 +1,34 @@
 {
-  "compilerOptions": {
-    "module": "esnext",
-    "target": "es2017",
-    "moduleResolution": "node",
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "noEmitHelpers": true,
-    "noEmitOnError": true,
-    "skipLibCheck": true,
-    "lib": ["es2017", "dom"],
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["app/*"],
-      "@/*": ["app/*"]
-    }
-  },
-  "include": ["app/**/*"],
-  "files": ["./references.d.ts"],
-  "exclude": ["node_modules", "platforms"]
+   "compilerOptions": {
+      "module": "esnext",
+      "target": "ESNext",
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "noEmitHelpers": true,
+      "noEmitOnError": false,
+      "skipLibCheck": true,
+      "noEmit": true,
+      "lib": [
+         "ESNext"
+      ],
+      "jsx": "preserve",
+      "baseUrl": ".",
+      "paths": {
+         "~/*": [
+            "app/*"
+         ],
+         "@/*": [
+            "app/*"
+         ]
+      },
+   },
+   "files": ["./app/solid-native-jsx.ts", "./app/nativescript-jsx.ts"],
+   "include": [
+      "app/**/*"
+   ],
+   "exclude": [
+      "node_modules",
+      "platforms"
+   ]
 }
